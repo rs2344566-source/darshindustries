@@ -1,0 +1,291 @@
+/* ================= GALLERY BANNER ================= */
+
+
+.gallery-banner{
+
+height:490px;
+
+background:
+linear-gradient(rgba(0,0,0,.55),
+rgba(0,0,0,.55)),
+url("../images/gallery/main.png");
+
+background-size:cover; 
+
+background-position:center;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+
+.gallery-banner h1{
+
+font-size:55px;
+
+color:white;
+
+}
+
+
+
+.gallery-banner p{
+
+font-size:20px;
+
+color:white;
+
+}
+
+
+
+
+
+
+
+/* ================= GALLERY SECTION ================= */
+
+
+.gallery-section{
+
+padding:100px 8%;
+
+background:#ffffff;
+
+}
+
+
+
+
+
+.section-title{
+
+text-align:center;
+
+margin-bottom:60px;
+
+}
+
+
+
+.section-title h5{
+
+color:#ff9800;
+
+letter-spacing:3px;
+
+font-size:16px;
+
+}
+
+
+
+.section-title h2{
+
+font-size:42px;
+
+color:#0B3D91;
+
+margin:15px 0;
+
+}
+
+
+
+.section-title p{
+
+max-width:750px;
+
+margin:auto;
+
+color:#666;
+
+line-height:30px;
+
+}
+
+
+
+
+
+
+
+
+/* ================= IMAGE GRID ================= */
+
+
+.gallery-grid{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:30px;
+
+}
+
+
+
+.gallery-grid img{
+
+width:280px;
+
+height:230px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+transition:.4s;
+
+}
+
+
+
+
+
+.gallery-grid img:hover{
+
+transform:scale(1.05);
+
+}
+
+
+
+
+
+
+
+
+/* ================= RESPONSIVE ================= */
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+    .gallery-grid {
+        gap: 20px;
+    }
+
+    .gallery-grid img {
+        width: 90%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery-banner {
+        height: 350px;
+    }
+
+    .gallery-banner h1 {
+        font-size: 38px;
+    }
+
+    .gallery-section {
+        padding: 65px 5%;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .gallery-grid img {
+        width: 100%;
+        height: 220px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== GALLERY PAGE ENHANCEMENTS ===== */
+
+/* Banner heading */
+.gallery-banner h1 {
+    font-size: 55px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+/* Orange underline below banner heading */
+.gallery-banner h1::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 4px;
+    background: #ff9800;
+    border-radius: 5px;
+    margin: 18px auto 0;
+}
+
+/* Section heading improvements */
+.section-title h5 {
+    font-weight: 700;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 18px;
+}
+
+/* Orange underline below Our Facility & Products */
+.section-title h2::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 3px;
+    background: #ff9800;
+    border-radius: 5px;
+    margin: 12px auto 0;
+}
+
+/* Smooth image hover effect */
+.gallery-grid img {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    cursor: pointer;
+}
+
+.gallery-grid img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 16px 32px rgba(11, 61, 145, 0.18);
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+.gallery-grid img {
+    height: 265px;
+}
+
+
+

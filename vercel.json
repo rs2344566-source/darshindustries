@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/html/index.html"
+    },
+    {
+      "source": "/about.html",
+      "destination": "/html/about.html"
+    },
+    {
+      "source": "/vision.html",
+      "destination": "/html/vision.html"
+    },
+    {
+      "source": "/products.html",
+      "destination": "/html/products.html"
+    },
+    {
+      "source": "/quality.html",
+      "destination": "/html/quality.html"
+    },
+    {
+      "source": "/gallery.html",
+      "destination": "/html/gallery.html"
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/html/contact.html"
+    },
+    {
+      "source": "/railway.html",
+      "destination": "/html/railway.html"
+    },
+    {
+      "source": "/rubber.html",
+      "destination": "/html/rubber.html"
+    },
+    {
+      "source": "/die.html",
+      "destination": "/html/die.html"
+    },
+    {
+      "source": "/admin.html",
+      "destination": "/html/admin.html"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/html/index.html"
+    }
+  ]
+}
